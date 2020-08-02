@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practice Suite" duration-ms="3785" started-at="2020-08-01T21:17:59 SGT" finished-at="2020-08-01T21:18:03 SGT">
+    <groups>
+    </groups>
+    <test name="Test Basics 1" duration-ms="3785" started-at="2020-08-01T21:17:59 SGT" finished-at="2020-08-01T21:18:03 SGT">
+      <class name="test.SearchBusTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:test.SearchBusTest@62ee68d8]" name="setupSuite" is-config="true" duration-ms="170" started-at="2020-08-01T21:17:59 SGT" finished-at="2020-08-01T21:17:59 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.SearchBusTest@62ee68d8]" name="setup" is-config="true" duration-ms="2968" started-at="2020-08-01T21:17:59 SGT" finished-at="2020-08-01T21:18:02 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="testSearch()[pri:0, instance:test.SearchBusTest@62ee68d8]" name="testSearch" duration-ms="4" started-at="2020-08-01T21:18:02 SGT" finished-at="2020-08-01T21:18:02 SGT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at test.SearchBusTest.testSearch(SearchBusTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.SearchBusTest@62ee68d8]" name="getResult" is-config="true" duration-ms="2" started-at="2020-08-01T21:18:02 SGT" finished-at="2020-08-01T21:18:02 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearch status=FAILURE method=SearchBusTest.testSearch()[pri:0, instance:test.SearchBusTest@62ee68d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="publishReport()[pri:0, instance:test.SearchBusTest@62ee68d8]" name="publishReport" is-config="true" duration-ms="787" started-at="2020-08-01T21:18:02 SGT" finished-at="2020-08-01T21:18:03 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- test.SearchBusTest -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>
